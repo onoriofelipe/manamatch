@@ -17,8 +17,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 
 # Add an executable that is called the same as Conan Project
-add_executable(${CONAN_PROJECT_NAME} 
+add_executable(${CONAN_PROJECT_NAME}
   ${PROJECT_SOURCE_DIR}/source/main.cpp
+  ${PROJECT_SOURCE_DIR}/source/queue/queue.cpp
   ${PROJECT_SOURCE_DIR}/source/foo/Foo.cpp)
 
 # Since it is an app, we don't have public includes. Thus store them where the source is

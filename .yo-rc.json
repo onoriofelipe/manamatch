@@ -1,0 +1,10 @@
+{
+  "generator-cpp-github": {
+    "ProjectName": "manamatch",
+    "ProjectNamePretty": "ManaMatch",
+    "ProjectDescription": "backend for yet another crystal matching game",
+    "ProjectWebPage": "http://example.com",
+    "ProjectMaintainersEmail": "onoriofelipe7@gmail.com",
+    "GeneratorType": "app"
+  }
+}
